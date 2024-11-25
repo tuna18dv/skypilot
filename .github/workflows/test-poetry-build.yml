@@ -35,7 +35,7 @@ jobs:
           fi
           echo Master repo URL: $MASTER_REPO_URL
           echo Using repo URL: $REPO_URL
-          cat <<EOF > foo/pyproject.toml
+          
           [tool.poetry]
           name = "foo"
           version = "1.0.0"
@@ -52,7 +52,7 @@ jobs:
           requires = ["poetry-core"]
           build-backend = "poetry.core.masonry.api"
           
-          EOF
+        
 
       - name: Check poetry lock time
         run: |
