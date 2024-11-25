@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  test
   <a href="https://skypilot.readthedocs.io/en/latest/">
     <img alt="Documentation" src="https://readthedocs.org/projects/skypilot/badge/?version=latest">
   </a>
